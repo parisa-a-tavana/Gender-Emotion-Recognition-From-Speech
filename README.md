@@ -40,7 +40,7 @@ Here is the comparison of models' accuracy:
 <br>
 ![Image 1](images/accuracy.png)
 <br>
-![Image 2](images/confusion emotion.png)
+![Image 2](images/confusion_emotion.png)
 
 
 
