@@ -11,9 +11,9 @@ Emotion ID: {1 : 'Angry', 2 : 'Happy', 3 : 'Sad', 4 : 'Neutral'}
 Gender ID: {0: 'male' , 1: 'female}
 <br>
 We use the noisereduce library to remove noise from the audio samples.
-
 <br>
-**Feature Extraction**:
+<br>
+__Feature Extraction__:
 <br>
 Mel  Frequency Coefficients Cepstral (MFCC): They represent the logarithmically spaced frequency bands of the signal and capture characteristics of the audio signal relevant to human auditory perception.
 <br>
