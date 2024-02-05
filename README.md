@@ -1,11 +1,14 @@
 # Gender-Emotion-Recognition-From-Speech
 In this project we impliment different machine learning methods to classify speech based on gender and emotion of the speakers.
 <br>
+<br>
 Data Set:
 <br>
 We record 400 people (men and women) reading 10 different sentences in 4 emotions: sad, happy, angry, and neutral.
 <br>
+<br>
 Feature Extraction:
+<br>
 <br>
 Mel  Frequency Coefficients Cepstral (MFCC): They represent the logarithmically spaced frequency bands of the signal and capture characteristics of the audio signal relevant to human auditory perception.
 <br>
