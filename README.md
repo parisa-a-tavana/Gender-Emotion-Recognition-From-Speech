@@ -41,13 +41,6 @@ Here is the comparison of models' accuracy:
 ![Alt text](images/accuracy.png)
 <br>
 ![Alt text](images/confusion emotion.png)
-<br>
-![Alt text](images/confusion gender.png)
-<br>
-![Alt text](images/roc emotion.png)
-<br>
-![Alt text](images/roc gender.png)
-
 
 
 
