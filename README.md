@@ -7,8 +7,8 @@ In this project we impliment different machine learning methods to classify spee
 We record 400 people (men and women) reading 10 different sentences in 4 emotions: sad, happy, angry, and neutral. Each audio sample has 2 labels:
 <br>
 Emotion ID: {1 : 'Angry', 2 : 'Happy', 3 : 'Sad', 4 : 'Neutral'}
+<br>
 Gender ID: {0: 'male' , 1: 'female'}
-
 <br>
 <br>
 **Feature Extraction**:
