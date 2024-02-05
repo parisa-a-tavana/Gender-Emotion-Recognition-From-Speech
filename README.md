@@ -38,9 +38,24 @@ We employ 4 distinct classification models: MLP, KNN, SVM, and Logistic Regressi
 <br>
 Here is the comparison of models' accuracy: 
 <br>
+<br>
 ![Image 1](images/accuracy.png)
 <br>
+<br>
 ![Image 2](images/confusion_emotion.png)
+<br>
+<br>
+![Image 3](images/confusion_gender.png)
+<br>
+<br>
+![Image 4](images/roc_emotion.png)
+<br>
+<br>
+![Image 5](images/roc_gender.png)
+<br>
+<br>
+
+
 
 
 
