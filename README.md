@@ -9,7 +9,6 @@ We record 400 people (men and women) reading 10 different sentences in 4 emotion
 <br>
 Feature Extraction:
 <br>
-<br>
 Mel  Frequency Coefficients Cepstral (MFCC): They represent the logarithmically spaced frequency bands of the signal and capture characteristics of the audio signal relevant to human auditory perception.
 <br>
 Chroma Frequencies: They represent the twelve pitch classes in music, capturing the tonal characteristics of audio. They condense musical information by focusing on the presence of pitch classes, commonly used for tasks like chord recognition and genre classification.
