@@ -12,8 +12,12 @@ Gender ID: {0: 'male' , 1: 'female}
 <br>
 We use the noisereduce library to remove noise from the audio samples.
 <br>
+We also shuffle and split the data set into train and test data.
+<br>
 <br>
 __Feature Extraction__:
+<br>
+We frist extrat the features below using the librosa library.
 <br>
 Mel  Frequency Coefficients Cepstral (MFCC): They represent the logarithmically spaced frequency bands of the signal and capture characteristics of the audio signal relevant to human auditory perception.
 <br>
@@ -25,7 +29,14 @@ Spectral Centroid: It indicates the "center of mass" of the frequency content in
 <br>
 Zero Crossing: It counts the number of times the audio waveform crosses the zero amplitude axis and is used to characterize the rate of changes in the signal. 
 <br>
+After extracting the features, we use MinMaxScaler from scikit-learn to transform features to the same range.
 <br>
+<br>
+__Classificatin__:
+<br>
+We employ 4 distinct classification models: MLP, KNN, SVM, and Logistic Regression. For each model, one is dedicated to gender classification, and another is assigned to emotion classification, resulting in a total of 8 models. Using cross-validation, we determine optimal hyperparameters for each model, selecting parameters based on accuracy. Following the identification of the best hyperparameters for each model, we proceed to train them on the training dataset and evaluate their performance on the test dataset.
+
+
 
 
 
