@@ -8,8 +8,10 @@ We record 400 people (men and women) reading 10 different sentences in 4 emotion
 <br>
 Emotion ID: {1 : 'Angry', 2 : 'Happy', 3 : 'Sad', 4 : 'Neutral'}
 <br>
-Gender ID: {0: 'male' , 1: 'female'}
+Gender ID: {0: 'male' , 1: 'female}
 <br>
+We use the noisereduce library to remove noise from the audio samples.
+
 <br>
 **Feature Extraction**:
 <br>
