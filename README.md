@@ -36,6 +36,7 @@ __Classificatin__:
 <br>
 We employ 4 distinct classification models: MLP, KNN, SVM, and Logistic Regression. For each model, one is dedicated to gender classification, and another is assigned to emotion classification, resulting in a total of 8 models. Using cross-validation, we determine optimal hyperparameters for each model, selecting parameters based on accuracy. Following the identification of the best hyperparameters for each model, we proceed to train them on the training dataset and evaluate their performance on the test dataset.
 <br>
+<br>
 __Classification Results__: 
 <br>
 <br>
@@ -63,6 +64,40 @@ Gender classification ROC plot
 ![Image 5](images/roc_gender.png)
 <br>
 <br>
+__Clustering__:
+<br>
+We apply three clustering techniques: K-means, GMM clustering, and Agglomerative clustering. For each method, we group the data into 2, 4, and 10 clusters. We evaluate the quality of the clusterings using both supervised and unsupervised criterias:
+<br>
+Supervised criteria: Homogeneity, Mutual Information 
+<br>
+Unsupervised criteria: Silhouette , Davis Bouldin
+<br>
+To visualize the clusters effectively, we employ PCA to reduce the data's dimensions to two, capturing the most significant variance.
+<br>
+<br>
+__Clustering Results__:
+<br>
+<br>
+2 cluster evaluation:
+<br>
+![Image 6](images/cluster2.png)
+<br>
+<br>
+4 cluster evaluation:
+<br>
+![Image 7](images/cluster4.png)
+<br>
+<br>
+10 cluster evaluation:
+<br>
+![Image 8](images/cluster10.png)
+<br>
+<br>
+Cluster visualisation:
+<br>
+2 cluster evaluation:
+<br>
+![Image 9](images/all_clusters.png)
 
 
 
