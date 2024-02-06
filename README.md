@@ -36,7 +36,7 @@ __Classificatin__:
 <br>
 We employ 4 distinct classification models: MLP, KNN, SVM, and Logistic Regression. For each model, one is dedicated to gender classification, and another is assigned to emotion classification, resulting in a total of 8 models. Using cross-validation, we determine optimal hyperparameters for each model, selecting parameters based on accuracy. Following the identification of the best hyperparameters for each model, we proceed to train them on the training dataset and evaluate their performance on the test dataset.
 <br>
-Here is the comparison of models' accuracy: 
+__Classification Results__: 
 <br>
 <br>
 Models accuracy:
