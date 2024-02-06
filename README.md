@@ -100,7 +100,6 @@ __Clustering Results__:
 <br>
 <br>
 Cluster visualisation:
-
 <br>
 ![Image 9](images/all_clusters.png)
 
