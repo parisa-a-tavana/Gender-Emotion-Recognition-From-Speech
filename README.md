@@ -2,6 +2,7 @@
 In this project we impliment different machine learning methods to classify speech based on gender and emotion of the speakers.
 <br>
 <br>
+<br>
 **Data Set**:
 <br>
 We record 400 people (men and women) reading 10 different sentences in 4 emotions: sad, happy, angry, and neutral. Each audio sample has 2 labels:
@@ -13,6 +14,7 @@ Gender ID: {0: 'male' , 1: 'female}
 We use the noisereduce library to remove noise from the audio samples.
 <br>
 We also shuffle and split the data set into train and test data.
+<br>
 <br>
 <br>
 __Feature Extraction__:
@@ -32,9 +34,11 @@ Zero Crossing: It counts the number of times the audio waveform crosses the zero
 After extracting the features, we use MinMaxScaler from scikit-learn to transform features to the same range.
 <br>
 <br>
+<br>
 __Classificatin__:
 <br>
 We employ 4 distinct classification models: MLP, KNN, SVM, and Logistic Regression. For each model, one is dedicated to gender classification, and another is assigned to emotion classification, resulting in a total of 8 models. Using cross-validation, we determine optimal hyperparameters for each model, selecting parameters based on accuracy. Following the identification of the best hyperparameters for each model, we proceed to train them on the training dataset and evaluate their performance on the test dataset.
+<br>
 <br>
 <br>
 __Classification Results__: 
@@ -64,6 +68,7 @@ Gender classification ROC plot
 ![Image 5](images/roc_gender.png)
 <br>
 <br>
+<br>
 __Clustering__:
 <br>
 We apply three clustering techniques: K-means, GMM clustering, and Agglomerative clustering. For each method, we group the data into 2, 4, and 10 clusters. We evaluate the quality of the clusterings using both supervised and unsupervised criterias:
@@ -73,6 +78,7 @@ Supervised criteria: Homogeneity, Mutual Information
 Unsupervised criteria: Silhouette , Davis Bouldin
 <br>
 To visualize the clusters effectively, we employ PCA to reduce the data's dimensions to two, capturing the most significant variance.
+<br>
 <br>
 <br>
 __Clustering Results__:
@@ -94,8 +100,7 @@ __Clustering Results__:
 <br>
 <br>
 Cluster visualisation:
-<br>
-2 cluster evaluation:
+
 <br>
 ![Image 9](images/all_clusters.png)
 
